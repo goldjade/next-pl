@@ -29,10 +29,8 @@ export default function Home() {
               능히 사람은 찾아다녀도, 칼이다.
             </p>
             <div className="flex justify-center">
-              <Link href="/portfolio">
-                <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
-                  Portofolio
-                </button>
+              <Link legacyBehavior href="/portfolio">
+                <button className="btn-project-index ">Portofolio</button>
               </Link>
             </div>
           </div>
