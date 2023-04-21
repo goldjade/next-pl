@@ -22,7 +22,7 @@ const Life = ({ lifeData }) => {
                   className="w-full object-cover h-full object-center block"
                   src={lifeData.results[0].cover.external.url}
                 />
-                <span className="absolute inline-block p-1 top-[5%] font-bold text-white bg-black bg-opacity-50">
+                <span className="absolute inline-block p-1 top-2 font-bold text-white bg-black bg-opacity-50">
                   {lifeData.results[0].properties.Name.title[0].plain_text}
                 </span>
               </div>
@@ -32,7 +32,7 @@ const Life = ({ lifeData }) => {
                   className="w-full object-cover h-full object-center block"
                   src={lifeData.results[1].cover.external.url}
                 />
-                <span className="absolute inline-block p-1 top-[5%] font-bold text-white bg-black bg-opacity-50">
+                <span className="absolute inline-block p-1 top-2 font-bold text-white bg-black bg-opacity-50">
                   {lifeData.results[1].properties.Name.title[0].plain_text}
                 </span>
               </div>
